@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>হোম সূচক থেকে on My New Hugo Site</title>
+    <link>http://localhost:1313/bn/</link>
+    <description>Recent content in হোম সূচক থেকে on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>bn</language>
+    <atom:link href="http://localhost:1313/bn/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>সম্পর্কিত</title>
+      <link>http://localhost:1313/bn/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bn/about/</guid>
+      <description>&lt;p&gt;About সম্পর্কিত পাতায় স্বাগতম!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>সম্পর্কিত Contact</title>
+      <link>http://localhost:1313/bn/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bn/contact/</guid>
+      <description>&lt;p&gt;সম্পর্কিত পাতায় স্বাগতম Contact!&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

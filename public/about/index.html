@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+
+    <link rel="stylesheet" href="/styles/main.css">
+
+      
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,400;1,500;1,900&display=swap" rel="stylesheet">
+
+    <title>About from index</title>
+  </head>
+  <body>
+    <link rel="stylesheet" href="/styles/navbar.css">
+
+
+
+
+<header class="navbarAndSidebar">
+  
+  <nav class="navbarContainer">
+    <div class="navbarContainerWrapper">
+      
+      <div class="navbarContainerLeft">
+        <div class="navbarContainerHamburger">
+          <button class="hamburger-btn" id="hamburger-btn" onclick="toggleSidebar()">☰</button>
+        </div>
+        <div class="navbarContainerLogo">
+          <span>
+            <a href="/">Home</a>
+          </span>
+        </div>
+      </div>
+      
+      <div class="navbarContainerRightItems">
+        
+
+
+        <ul class="navbarContainerRightItem" style="display: flex; padding: 0 24px">
+          
+          <li><a class="link" href="/about">About</a></li>
+          <li><a class="link" href="/contact">Contact</a></li>
+          
+        </ul>
+
+
+        <div>
+          <a href="http://localhost:1313/" class="language-switcher">English</a> |
+          <a href="/bn/" class="language-switcher">বাংলা</a>
+        </div>
+        
+
+      </div>
+    </div>
+  </nav>
+  
+  <div id="sidebar" class="setSidebarForToggle transform transition-all duration-300 translateForSidebarNeg">
+    <button class="SidebarToggleBtn" id="sidebar-close-btn" onclick="toggleSidebar()">X</button>
+    <ul class="SidebarItems">
+      
+        <li class="SidebarItem">
+          <a href="/" class="link">HOME</a>
+        </li>
+      
+        <li class="SidebarItem">
+          <a href="/car" class="link">CAR</a>
+        </li>
+      
+        <li class="SidebarItem">
+          <a href="/bicycle" class="link">BICYCLE</a>
+        </li>
+      
+    </ul>
+    <h2>Our categories</h2>
+    <ul class="SidebarItems">
+      
+        <li class="SidebarItem">
+          <a href="/potato" class="link">POTATO</a>
+        </li>
+      
+    </ul>
+  </div>
+</header>
+
+
+<script>
+  function toggleSidebar() {
+    const sidebar = document.getElementById('sidebar');
+    const sidebarCloseButton = document.getElementById('sidebar-close-btn');
+    
+    sidebar.classList.toggle('translateForSidebar');
+    sidebar.classList.toggle('translateForSidebarNeg');
+  }
+</script>
+    <main>
+      
+  <div class="about-page">
+    <h1>About Us</h1>
+    <p><p>Welcome to the About page!</p>
+</p>
+  </div>
+
+    </main>
+  </body>
+</html>
