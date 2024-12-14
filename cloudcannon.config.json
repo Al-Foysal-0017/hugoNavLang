@@ -1,0 +1,10 @@
+{
+    "name": "Your Site Name",
+    "cms": "hugo",
+    "paths": {
+      "output": "public",
+      "data": "data",
+      "static": "static"
+    }
+  }
+  
